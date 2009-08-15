@@ -1,7 +1,7 @@
 require 'rake/clean'
 verbose(true)
 
-bundle_dir = File.expand_path '.'
+bundle_dir = File.dirname(__FILE__)
 bundle_file = "#{bundle_dir}/CandyWrapper.bundle"
 m_files = FileList[File.join(bundle_dir, '*.m')]
 all_files = m_files.clone.add '**/*.h'
@@ -26,6 +26,6 @@ file bundle_file do |t|
 	   "-o #{bundle_file} #{m_files.join(' ')}"
 end
 
-task :run => [bundle_file] do
-	sh "macruby call_objc.rb"
+task :test => [bundle_file] do
+	sh "macruby candy_test.rb"
 end
