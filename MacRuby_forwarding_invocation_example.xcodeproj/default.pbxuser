@@ -12,6 +12,28 @@
 			6F40914C1036D5B10059E67F /* MacRuby_forwarding_invocation_example */,
 		);
 		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					800,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
 			PBXPerProjectTemplateStateSaveDate = 272029105;
 			PBXWorkspaceStateSaveDate = 272029105;
 		};
@@ -98,6 +120,9 @@
 			6F4091C5103715990059E67F /* PBXTextBookmark */ = 6F4091C5103715990059E67F /* PBXTextBookmark */;
 			6F4091C6103715A30059E67F /* PBXTextBookmark */ = 6F4091C6103715A30059E67F /* PBXTextBookmark */;
 			6F4091C7103715A30059E67F /* PBXTextBookmark */ = 6F4091C7103715A30059E67F /* PBXTextBookmark */;
+			6F409246103724000059E67F /* PBXTextBookmark */ = 6F409246103724000059E67F /* PBXTextBookmark */;
+			6F409247103724000059E67F /* PBXTextBookmark */ = 6F409247103724000059E67F /* PBXTextBookmark */;
+			6F409248103724170059E67F /* PBXTextBookmark */ = 6F409248103724170059E67F /* PBXTextBookmark */;
 		};
 		sourceControlManager = 6F4091521036D5D00059E67F /* Source Control */;
 		userBuildSettings = {
@@ -105,9 +130,9 @@
 	};
 	08FB7796FE84155DC02AAC07 /* MacRuby_forwarding_invocation_example.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1375, 238}}";
-			sepNavSelRange = "{399, 0}";
-			sepNavVisRange = "{77, 418}";
+			sepNavIntBoundsRect = "{{0, 0}, {978, 574}}";
+			sepNavSelRange = "{492, 0}";
+			sepNavVisRange = "{0, 495}";
 		};
 	};
 	32A70AAB03705E1F00C91783 /* MacRuby_forwarding_invocation_example_Prefix.pch */ = {
@@ -1015,6 +1040,36 @@
 		rLoc = 399;
 		rType = 0;
 		vrLen = 479;
+		vrLoc = 0;
+	};
+	6F409246103724000059E67F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* MacRuby_forwarding_invocation_example.m */;
+		name = "MacRuby_forwarding_invocation_example.m: 12";
+		rLen = 0;
+		rLoc = 399;
+		rType = 0;
+		vrLen = 495;
+		vrLoc = 0;
+	};
+	6F409247103724000059E67F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* MacRuby_forwarding_invocation_example.m */;
+		name = "MacRuby_forwarding_invocation_example.m: 15";
+		rLen = 0;
+		rLoc = 492;
+		rType = 0;
+		vrLen = 495;
+		vrLoc = 0;
+	};
+	6F409248103724170059E67F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* MacRuby_forwarding_invocation_example.m */;
+		name = "MacRuby_forwarding_invocation_example.m: 15";
+		rLen = 0;
+		rLoc = 492;
+		rType = 0;
+		vrLen = 495;
 		vrLoc = 0;
 	};
 	8DD76F960486AA7600D96B5E /* MacRuby_forwarding_invocation_example */ = {
