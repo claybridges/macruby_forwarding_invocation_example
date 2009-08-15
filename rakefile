@@ -1,0 +1,31 @@
+require 'rake/clean'
+verbose(true)
+
+bundle_dir = File.expand_path '.'
+bundle_file = "#{bundle_dir}/CandyWrapper.bundle"
+m_files = FileList[File.join(bundle_dir, '*.m')]
+all_files = m_files.clone.add '**/*.h'
+all_files.add __FILE__
+
+file bundle_file
+
+all_files.each do |f|
+	file f
+	file bundle_file => f
+end 
+
+CLOBBER.include bundle_file
+
+task :default => [bundle_file]
+
+file bundle_file do |t|
+	# will need a -arch ppc -arch ppc64 for power pc boxes
+	sh "gcc -std=c99 -dynamiclib -framework Cocoa " \
+	   "-fobjc-gc -arch i386 -arch x86_64 " \
+	   "-I#{bundle_dir} " \
+	   "-o #{bundle_file} #{m_files.join(' ')}"
+end
+
+task :run => [bundle_file] do
+	sh "macruby call_objc.rb"
+end
