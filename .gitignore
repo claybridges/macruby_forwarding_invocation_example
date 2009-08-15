@@ -1,2 +1,15 @@
-build/*
 *.bundle
+
+# xcode noise
+*.mode1v3
+*.pbxuser
+build/*.*
+build/
+*.perspectivev3
+
+# osx noise
+.DS_Store
+
+# vim noise
+.*.swp
+*.swp
