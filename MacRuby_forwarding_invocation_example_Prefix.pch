@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'MacRuby_forwarding_invocation_example' target in the 'MacRuby_forwarding_invocation_example' project.
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
